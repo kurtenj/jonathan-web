@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Aileron';
+  src: url('../assets/Aileron-Regular.otf')
+}
+
+#designBoiContent {
+  font-size: 30px;
+  font-family: 'Aileron';
+  letter-spacing: .69px;
+  font-weight: normal;
+  line-height: 56px;
+  margin: 80px auto 0;
+  max-width: 960px;
+}
+
+.blueBoi {
+  color: #00B8BF;
+  text-decoration: underline;
+}
+
+.grayBois {
+  color: #B0B1B5;
+}
+
+.pinkyBoi {
+  color: #F5006B;
+  text-decoration: underline;
+}
+
+.yellingText {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.wrongBoi {
+  text-decoration: line-through;
+}
+
+#fancyPantsSVG {
+  align-items: center;
+  display: flex;
+  margin-top: 160px;
+}
+
+#fancyPantsSVG > * {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  margin-right: 40px;
+  width: 30px;
+}
+
+#twitterSVG {
+  height: 60px;
+  margin-right: 35px;
+  width: 60px;
+}
+
+#mediumSVG {
+  width: 35px;
+}
+
+.emojiSVG {
+  width: 30px;
+}
+
+@media (max-width: 960px) {
+  #designBoiContent {
+    margin: 20px;
+  }
+  #fancyPantsSVG {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
