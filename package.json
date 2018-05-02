@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "jonathan-kurten",
+  "description": "Jonathan Kurten Designer",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Blayne Marjama <blayne.marjama@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
@@ -16,6 +16,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "npm run build && surge -p ./public --domain jonathankurten.surge.sh",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

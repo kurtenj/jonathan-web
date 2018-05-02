@@ -19,10 +19,32 @@ const IndexPage = () => (
       systems and product design process. Oh yeah, I’m a coffee
       snob (duh), hit me up below and we’ll grab a cup.</span></p>
     <div id="fancyPantsSVG">
-      <a href="https://dribbble.com/jonathankurten" style={{backgroundImage:`url(${Dribble})`}} />
-      <a id="twitterSVG" href="https://twitter.com/jokurten" style={{backgroundImage:`url(${Twitter})`}} />
-      <a id="mediumSVG" href="https://medium.com/@kurtenj" style={{backgroundImage:`url(${Medium})`}} />
-      <a href="https://www.linkedin.com/in/jonathankurten/" style={{backgroundImage:`url(${Linkedin})`}} />
+      <a
+        href="https://dribbble.com/jonathankurten"
+        rel="nofollow noopener noreferrer"
+        style={{ backgroundImage: `url(${Dribble})` }}
+        target="_blank"
+      />
+      <a
+        href="https://twitter.com/jokurten"
+        id="twitterSVG"
+        rel="nofollow noopener noreferrer"
+        style={{ backgroundImage: `url(${Twitter})` }}
+        target="_blank"
+      />
+      <a
+        href="https://medium.com/@kurtenj"
+        id="mediumSVG"
+        rel="nofollow noopener noreferrer"
+        style={{ backgroundImage: `url(${Medium})` }}
+        target="_blank"
+      />
+      <a
+        href="https://www.linkedin.com/in/jonathankurten/"
+        rel="nofollow noopener noreferrer"
+        style={{ backgroundImage: `url(${Linkedin})` }}
+        target="_blank"
+      />
     </div>
   </div>
 )
