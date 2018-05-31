@@ -14,7 +14,7 @@
 }
 
 .blueBoi {
-  color: #00B8BF;
+  color: #00B8BF !important;
   text-decoration: underline;
 }
 
@@ -23,12 +23,12 @@
 }
 
 .pinkyBoi {
-  color: #F5006B;
+  color: #F5006B !important;
   text-decoration: underline;
 }
 
 .yellingText {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
 }
 
