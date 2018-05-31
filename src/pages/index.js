@@ -11,10 +11,10 @@ import Twitter from '../assets/Twitter_Logo_Blue.svg'
 const IndexPage = () => (
   <div id="designBoiContent">
     <h1 className="yellingText">Howzit, I’m Jonathan</h1>
-    <p>I’m a regular old <span className="pinkyBoi">design boy</span>&nbsp;<img className="emojiSVG" src={Paint} />
+    <p>I’m a regular old <span className="pinkyBoi"><a href="https://dribbble.com/jonathankurten" rel="nofollow noopener noreferrer">design boy</a></span>&nbsp;<img className="emojiSVG" src={Paint} />
       from <span className="wrongBoi">Cape Town</span> Portland <img className="emojiSVG" src={Tree} />.
       I’m sorta seriously into how people move around and I work
-      with some dope folks to make <span className="blueBoi">urban mobility</span>&nbsp;<img className="emojiSVG" src={Bus} /> better.
+      with some dope folks to make <span className="blueBoi"><a href="https://www.moovel-group.com/en" rel="nofollow noopener noreferrer">urban mobility</a></span>&nbsp;<img className="emojiSVG" src={Bus} /> better.
       <span className="grayBois">Now and then I jot some things down, mostly about design
       systems and product design process. Oh yeah, I’m a coffee
       snob (duh), hit me up below and we’ll grab a cup.</span></p>
