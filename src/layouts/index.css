@@ -13,7 +13,7 @@
   max-width: 960px;
 }
 
-blueBoi {
+.blueBoi {
   color: #00B8BF;
   text-decoration: underline;
 }
@@ -22,7 +22,7 @@ blueBoi {
   color: #B0B1B5;
 }
 
-pinkyBoi {
+.pinkyBoi {
   color: #F5006B;
   text-decoration: underline;
 }
