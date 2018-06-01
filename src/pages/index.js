@@ -11,7 +11,8 @@ import Twitter from '../assets/Twitter_Logo_Blue.svg'
 const IndexPage = () => (
   <div id="designBoiContent">
     <h1 className="yellingText">Howzit, I’m Jonathan</h1>
-    <p>I’m a regular old <img className="emojiSVG" src={Paint} /><a href="https://dribbble.com/jonathankurten" target="_blank" rel="nofollow noopener noreferrer" class="pinkyBoi">design boy</a> from <span className="wrongBoi">Cape Town</span> <img className="emojiSVG" src={Tree} />Portland. I’m sorta seriously into how people move around and I work with some dope folks to make <img className="emojiSVG" src={Bus} /><a href="https://www.moovel-group.com/en" target="_blank" rel="nofollow noopener noreferrer" class="blueBoi">urban mobility</a> better. <span className="grayBois">Now and then I jot some things down, mostly about design systems and product design process. Oh yeah, I’m a coffee snob (duh), hit me up below and we’ll grab a cup.</span></p>
+    <p>I’m a regular old <img className="emojiSVG" src={Paint} /><a class="pinkyBoi" href="https://dribbble.com/jonathankurten" target="_blank" rel="nofollow noopener noreferrer">design boy</a> from <span className="wrongBoi">Cape Town</span> <img className="emojiSVG" src={Tree} />Portland. I’m sorta seriously into how people move around and I work with some dope folks to make <img className="emojiSVG" src={Bus} /><a class="blueBoi" href="https://www.moovel-group.com/en" target="_blank" rel="nofollow noopener noreferrer">urban mobility</a> better. <span className="grayBois">Now and then I jot some things down, mostly about design systems and product design process. Oh yeah, I’m a coffee snob (duh), hit me up below and we’ll grab a cup.</span></p>
+
     <div id="fancyPantsSVG">
       <a
         href="https://dribbble.com/jonathankurten"
