@@ -67,11 +67,15 @@
 
 @media (max-width: 960px) {
   #designBoiContent {
-    line-height: 40px;
+    line-height: 42px;
+    font-size: 26px;
     margin: 20px;
   }
+  .yellingText {
+    font-size: 32px;
+    font-weight: bold;
+  }
   #fancyPantsSVG {
-    justify-content: center;
     margin-top: 20px;
   }
 }
