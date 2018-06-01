@@ -13,7 +13,17 @@
   max-width: 960px;
 }
 
-a.blueBoi {
+a.blueBoi:link {
+  color: #00B8BF;
+  text-decoration: none;
+}
+
+a.blueBoi:visited {
+  color: #00B8BF;
+  text-decoration: none;
+}
+
+a.blueBoi:hover {
   color: #00B8BF;
   text-decoration: underline;
 }
@@ -22,7 +32,17 @@ a.blueBoi {
   color: #B0B1B5;
 }
 
-a.pinkyBoi {
+a.pinkyBoi:link {
+  color: #F5006B;
+  text-decoration: none;
+}
+
+a.pinkyBoi:visited {
+  color: #F5006B;
+  text-decoration: none;
+}
+
+a.pinkyBoi:hover {
   color: #F5006B;
   text-decoration: underline;
 }
