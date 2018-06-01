@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'Aileron';
-  src: url('../assets/Aileron-Regular.otf')
+  font-family: 'Lato', sans-serif;
+  src: url('../assets/Lato-Regular.ttf')
 }
 
 #designBoiContent {
-  font-size: 30px;
+  font-size: 32px;
   font-family: 'Aileron';
   letter-spacing: .70px;
   font-weight: normal;
   line-height: 50px;
-  margin: 80px 80px 0;
-  max-width: 800px;
+  margin: 100px 100px 0;
+  max-width: 830px;
 }
 
 .blueBoi {
